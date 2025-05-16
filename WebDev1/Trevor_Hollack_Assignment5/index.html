@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="css/provided.css">
+    <link rel="stylesheet" href="css/flex.css">
+  </head>
+  <body>
+    <section>
+      <header>
+        <div>
+          <h1>Flexbox Styling @ WSU</h1>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Our Services</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="row1">
+          <article>
+            <h1>Introduction</h1>
+            <p>
+              Flexbox, or the Flexible Box Layout, is a CSS layout model
+              designed to provide an efficient way to arrange items within a
+              container. It is particularly useful for creating flexible and
+              responsive designs, making it easier to align and distribute space
+              among items. Flexbox simplifies tasks like vertically centering
+              elements or evenly distributing space, tasks that were previously
+              more complex using traditional layout methods like floats or
+              positioning.
+            </p>
+          </article>
+          <article>
+            <h3>The Flex Container and Flex Items</h3>
+            <p>
+              In Flexbox, a parent element is designated as the flex container,
+              and its children are referred to as flex items. The container's
+              display property is set to display: flex;, which immediately
+              applies the Flexbox layout to its children. This allows the items
+              within the container to align, grow, shrink, and wrap as needed,
+              depending on the available space and the styling rules applied.
+            </p>
+          </article>
+          <article>
+            <h1>Flex Direction</h1>
+            <p>
+              The flex-direction property controls the direction in which flex
+              items are placed within the flex container. By default, items are
+              arranged in a row from left to right, but this can be changed to
+              column layout using flex-direction: column;. Additionally, reverse
+              options (row-reverse and column-reverse) are available to flip the
+              item order either horizontally or vertically.
+            </p>
+          </article>
+          <article>
+            <h3>Justify Content</h3>
+            <p>
+              The justify-content property is used to align flex items along the
+              main axis (which can be horizontal or vertical depending on
+              flex-direction). This property helps in controlling the space
+              distribution between items. Common values include flex-start,
+              flex-end, center, space-between, and space-around, each affecting
+              how items are spaced within the container.
+            </p>
+          </article>
+        </div>
+        <div class="row2">
+          <article>
+            <h3>Align Items and Align Content</h3>
+            <p>
+              While justify-content controls alignment along the main axis,
+              align-items manages alignment along the cross axis (perpendicular
+              to the main axis). This allows you to align flex items at the
+              start, center, or end of the cross axis. For multi-line flex
+              containers, align-content manages the alignment of the lines
+              themselves, allowing for vertical spacing adjustments when items
+              wrap into multiple rows.
+            </p>
+          </article>
+          <article>
+            <h3>Flex Grow, Shrink, and Basis</h3>
+            <p>
+              Flexbox offers precise control over the size of flex items using
+              the flex-grow, flex-shrink, and flex-basis properties. flex-grow
+              defines how much an item should expand relative to other items in
+              the container, while flex-shrink determines how items should
+              shrink if space becomes limited. flex-basis sets the initial size
+              of a flex item before it grows or shrinks, giving you granular
+              control over item sizes.
+            </p>
+          </article>
+          <article>
+            <h3>Flexbox and Responsive Design</h3>
+            <p>
+              Flexbox is an excellent tool for creating responsive layouts that
+              adapt to various screen sizes. By adjusting properties like
+              flex-wrap, you can control whether items wrap onto new lines when
+              the container shrinks. Combined with media queries, Flexbox helps
+              ensure your layout remains flexible and usable across different
+              devices, making it a go-to solution for modern web
+            </p>
+          </article>
+        </div>
+      </main>
+      <footer>
+        <p class=".left">CIS 2800</p>
+        <p class=".right">&copy;2024 - Flexbox Assignment</p>
+      </footer>
+    </section>
+  </body>
+</html>

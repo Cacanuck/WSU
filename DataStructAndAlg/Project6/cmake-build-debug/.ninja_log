@@ -1,0 +1,12 @@
+# ninja log v6
+2	70	1733416788148159618	CMakeFiles/Project6.dir/hashfunction.cpp.o	5eb84eb571e1ebb
+7	925	1733419015176677051	CMakeFiles/Project6.dir/Database.cpp.o	b0b28fe5b00f104b
+6	912	1733419015176317906	CMakeFiles/Project6.dir/main.cpp.o	e3cb85b060cb49e
+7	876	1733419015176923055	CMakeFiles/Project6.dir/HashTable.cpp.o	93b4ae76d61c9883
+925	1026	1733419016094816380	Project6	8d0683bf4aa3fbe3
+3	67	1733416788149108724	CMakeFiles/Project6.dir/Record.cpp.o	fb109963b1baa899
+5	103	1733419268978199903	build.ninja	9ae6926e35ac1380
+4	1162	1733419268994404379	CMakeFiles/Project6.dir/HashTable.cpp.o	93b4ae76d61c9883
+3	1209	1733419268993806109	CMakeFiles/Project6.dir/main.cpp.o	e3cb85b060cb49e
+4	1225	1733419268994153460	CMakeFiles/Project6.dir/Database.cpp.o	b0b28fe5b00f104b
+1225	1326	1733419270215226924	Project6	687cec9a3bef0e98

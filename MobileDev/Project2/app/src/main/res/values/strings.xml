@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="stamina">Stamina</string>
+    <string name="strength">Strength</string>
+    <string name="agility">Agility</string>
+    <string name="intellect">Intellect</string>
+</resources>

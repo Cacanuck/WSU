@@ -1,0 +1,103 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Wrapper section */
+section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation styles */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Article styles */
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+article h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+article p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Aside styles */
+aside {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 4px solid #4CAF50;
+}
+
+aside h1 {
+    font-size: 1.6em;
+    color: #4CAF50;
+}
+
+aside ol, aside ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+aside ol li, aside ul li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color:#4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    padding: 11px;
+}
+
+footer p {
+    margin: 5px 0;
+}

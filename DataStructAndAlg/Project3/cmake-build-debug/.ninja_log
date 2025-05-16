@@ -1,0 +1,6 @@
+# ninja log v6
+1	738	1727293712303408755	CMakeFiles/project3.dir/project3TestHarness.cpp.o	4bad59646740e26b
+3	3091	1728439914430516810	CMakeFiles/project3.dir/sequence.cpp.o	fee885ab2fae4fd1
+1	636	1727293712303073054	CMakeFiles/project3.dir/main.cpp.o	4ed9cf0e6fb25f58
+10	136	1728934747012476389	build.ninja	3ec7f606953c8535
+3091	3430	1728439917518812292	project3	91e083b36a8efa3a

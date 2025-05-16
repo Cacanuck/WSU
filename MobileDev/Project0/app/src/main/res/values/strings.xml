@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project0</string>
+    <string name="name">Chaotic Dark Elf</string>
+    <string name="cardType">Elf</string>
+    <string name="cost">3</string>
+    <string name="cardText">When Chaotic Dark Elf enters the battfield, deal 2 damage to each player\'s Life.</string>
+    <string name="cardPower">4</string>
+    <string name="cardToughness">2</string>
+</resources>

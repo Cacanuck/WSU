@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Trevor/CEG4350/WSOS/OS/src",
+      "program": "/Users/Trevor/CEG4350/WSOS/OS/src/build/Debug/outDebug"
+    }
+  ]
+}

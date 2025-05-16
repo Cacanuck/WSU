@@ -1,0 +1,78 @@
+header,
+nav,
+footer {
+  text-align: center;
+  flex: 1 0 100%;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: crimson;
+}
+body {
+  background-color: #4bf;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "article1 article2 article3"
+    "footer footer footer";
+}
+header {
+  grid-area: header;
+}
+img {
+    width: 300px;
+    height: auto;
+}
+nav {
+  grid-area: nav;
+  border: solid black 1px;
+  background-color: aquamarine;
+  width: auto;
+  margin: 0 auto;
+}
+article:nth-child(1) {
+  grid-area: article1;
+}
+article:nth-child(2) {
+  grid-area: article2;
+}
+article:nth-child(3) {
+  grid-area: article3;
+}
+article {
+  padding: 10px;
+}
+footer {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border: solid black 1px;
+  grid-area: footer;
+}
+@media (max-width: 600px) {
+body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: "header" "nav" "article1" "article2" "article3" "footer";
+}
+}

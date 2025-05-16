@@ -1,0 +1,41 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+nav {
+  margin-bottom: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+div {
+  display: flex;
+  gap: 20px;
+}
+.row1 article {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row2 article {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
